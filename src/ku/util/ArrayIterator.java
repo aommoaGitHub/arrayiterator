@@ -2,7 +2,11 @@ package ku.util;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
+/**
+ * ArrayIterator class is created for using array with iterator interface.
+ * @author Vittunyuta Maeprasart
+ * @param <T>
+ */
 public class ArrayIterator<T> implements Iterator<T> {
 	/** attribute for the array we want to iterate over */
 	private T[] array;
